@@ -56,6 +56,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -106,6 +110,7 @@
   </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
@@ -115,6 +120,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КонтактныеЛица.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="13fa7665-5fad-45dc-9f8e-c079850a2fd6">
     <name>КонтактныйТелефон</name>
     <synonym>
@@ -185,4 +191,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="fdf74265-add8-4daf-bc75-33565ca1ef2b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
